@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
+    <sprite>sprites\sprite2</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tiles">
@@ -38,6 +39,7 @@
     <object>objects\oGame</object>
     <object>objects\oStaticParent</object>
     <object>objects\oDynamicParent</object>
+    <object>objects\object4</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rMain</room>

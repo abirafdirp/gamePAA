@@ -53,6 +53,7 @@
   <instances>
     <instance objName="oPlayer" x="1024" y="448" name="inst_FA27F94E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="oGame" x="32" y="0" name="inst_A63D8107" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object4" x="128" y="32" name="inst_A33DF680" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="704" y="704" w="16" h="16" xo="0" yo="0" id="10000017" name="inst_097C5578" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
