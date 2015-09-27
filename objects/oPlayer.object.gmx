@@ -26,9 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>/* in newtons */
-Acceleration = -250
-BrakingDeceleration = 500
-NoForceDeceleration = 100
+Acceleration = -2200
+TurnAcceleration = -4000
+BrakingDeceleration = 3000
 
 /* force locations */
 WheelX = 0
@@ -88,7 +88,7 @@ switch state_ {
             break
         }
         if keyboard_check(ord('W')) {
-            physics_apply_local_force(WheelX,WheelY,0,Acceleration)
+            physics_apply_local_force(WheelX,WheelY,0,Acceleration*2)
         }
         /*if (keyboard_check(ord('A')) &amp;&amp; !keyboard_check(ord('W')) &amp;&amp; !keyboard_check(ord('S'))) {
             phy_rotation = phy_rotation - TurnAngle 
@@ -103,11 +103,9 @@ switch state_ {
         }*/
         if keyboard_check(ord('A')) {
             phy_rotation = phy_rotation - TurnAngle
-            physics_apply_local_force(WheelX,WheelY,0,Acceleration)
         }
         if keyboard_check(ord('D')) {
             phy_rotation = phy_rotation + TurnAngle
-            physics_apply_local_force(WheelX,WheelY,0,Acceleration)
         }
         if keyboard_check(ord('S')) {
             if phy_speed &gt; 0 {
